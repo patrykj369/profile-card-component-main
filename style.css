@@ -1,0 +1,45 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62,5%;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-color: hsl(185, 75%, 39%);;
+}
+
+.card{
+    margin: 0 auto;
+    width: 380px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card-background{
+    margin-top: 30vh;
+    height: 140px;
+    background: url("./images/bg-pattern-card.svg") center;
+    background-color: hsl(185, 75%, 39%);
+    background-size: contain;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-section {
+    height: auto;
+    position: relative;
+}
+
+.card-section > img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: absolute;
+    top:calc(100% - 370px);
+    left:140px;
+}
+
